@@ -6,7 +6,7 @@ aux_j = j
 
 while i <= 2 and j <= 5:
   while c < 3:
-    if i in [0, 1, 1.8]:
+    if i in [0, 1] or i > 1.8:
       print(f'I={i:.0f} J={j:.0f}')
     else:
       print(f'I={i:.1f} J={j:.1f}')
