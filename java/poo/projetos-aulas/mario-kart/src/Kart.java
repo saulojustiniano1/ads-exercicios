@@ -19,6 +19,10 @@ public class Kart {
         this.personagem = personagem;
     }
 
+    public int getVidaKart() {
+        return vidaKart;
+    }
+
     public void bateKart(){
         vidaKart = vidaKart - 10;
         personagem.perderMoeda();
