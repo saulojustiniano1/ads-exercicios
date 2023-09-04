@@ -86,13 +86,12 @@ public class Main {
 
             }
         }
+
         System.out.println("=-=-=-=-=-=- Stats da partida =-=-=-=-=-=");
         System.out.println("Posição: "+p1.getPosicao());
         System.out.println("Vida do kart: "+k1.getVidaKart()+"%");
         System.out.println("Quantidade de moedas totais: "+p1.getMoedas());
         System.out.println("Personagem: "+p1.getNome());
         System.out.println("Cor do kart: "+k1.getCor());
-
-
     }
 }
