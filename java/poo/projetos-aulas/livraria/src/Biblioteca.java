@@ -9,26 +9,26 @@ public class Biblioteca {
     }
 
     public ArrayList<Livro> mostrarLivros() {
-        return livros;
+        return this.livros;
     }
 
     public int tamanhoDaLivraria(){
-        return livros.size();
+        return this.livros.size();
     }
 
     public Livro buscarLivro(String autor){
-        for(Livro l: livros){
-            if(l.getAutor().equals(autor)){
-                return l;
+        for(Livro livro: this.livros){
+            if(livro.getAutor().equals(autor)){
+                return livro;
             }
         }
         return null;
     }
 
     public boolean removerLivros(String autor){
-        for(Livro l: livros){
-            if(l.getAutor().equals(autor)){
-                livros.remove(l);
+        for(Livro livro: this.livros){
+            if(livro.getAutor().equals(autor)){
+                this.livros.remove(livro);
                 return true;
             }
         }
