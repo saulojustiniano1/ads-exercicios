@@ -22,7 +22,7 @@
   <img src=".github/preview.png" width="100%"/>
 </div>
 
-## 💻 Projeto
+#####
 
 📦Repositório dos exercícios de **Python** e **Java** do ADS.
 
