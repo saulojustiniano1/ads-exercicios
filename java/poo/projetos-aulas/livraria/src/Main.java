@@ -29,8 +29,8 @@ public class Main {
                 case 1 -> {
                     System.out.println("Informe quantos livros deseja cadastrar: ");
                     int quantidadeDeLivros = input.nextInt();
-                    for (int i = 0; i < quantidadeDeLivros; i++) {
-                        if (i == 0) {
+                    for (int i=0; i<quantidadeDeLivros; i++) {
+                        if (i==0) {
                             input.nextLine();
                         }
                         System.out.println("Nome do livro: ");
@@ -77,7 +77,6 @@ public class Main {
                     } else {
                         System.out.println("Livro NÃO encontrado!");
                     }
-
                 }
                 case 6 -> {
                     System.out.println("Volte sempre!");

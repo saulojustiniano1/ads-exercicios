@@ -8,14 +8,12 @@ public class Biblioteca {
         this.livros.add(livro);
     }
 
-    public boolean removerLivros(String autor){
-        for(Livro livro: this.livros){
-            if(livro.getAutor().equals(autor)){
-                this.livros.remove(livro);
-                return true;
-            }
-        }
-        return false;
+    public ArrayList<Livro> mostrarLivros() {
+        return this.livros;
+    }
+
+    public int tamanhoDaLivraria(){
+        return this.livros.size();
     }
 
     public Livro buscarLivro(String autor){
@@ -26,11 +24,14 @@ public class Biblioteca {
         }
         return null;
     }
-    public int tamanhoDaLivraria(){
-        return this.livros.size();
-    }
 
-    public ArrayList<Livro> mostrarLivros() {
-        return this.livros;
+    public boolean removerLivros(String autor){
+        for(Livro livro: this.livros){
+            if(livro.getAutor().equals(autor)){
+                this.livros.remove(livro);
+                return true;
+            }
+        }
+        return false;
     }
 }
