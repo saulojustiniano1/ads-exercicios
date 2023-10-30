@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/2_basico#2.iml" filepath="$PROJECT_DIR$/.idea/2_basico#2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bee-1011_esfera/bee-1011_esfera.iml" filepath="$PROJECT_DIR$/bee-1011_esfera/bee-1011_esfera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bee-1012_area/bee-1012_area.iml" filepath="$PROJECT_DIR$/bee-1012_area/bee-1012_area.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bee-1014_consumo/bee-1014_consumo.iml" filepath="$PROJECT_DIR$/bee-1014_consumo/bee-1014_consumo.iml" />
+    </modules>
+  </component>
+</project>
