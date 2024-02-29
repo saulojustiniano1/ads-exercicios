@@ -22,20 +22,20 @@
   <img src=".github/preview.png" width="100%"/>
 </div>
 
-#####
+####
 
-📦Repositório dos exercícios de **Python** e **Java** do ADS.
+📦 Repositório dos exercícios de Análise e desenvolvimento de Sistemas.
 
-<!-- > **Link do projeto:** [🔗Clique aqui para acessar](https://saulojustiniano1.github.io/esports-community) -->
-
-###
-
-**✏️Linguagens:**
+#### 📚 Linguagens
 
 - [Python](https://www.python.org/)
 - [Java](https://docs.oracle.com/javase/8/docs/api/)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/css)
 
-**🚀Tecnologias:**
+#### 🚀 Tecnologias
 
 - [Intellij IDEA](https://www.jetbrains.com/idea/)
-- [Git](https://git-scm.com) | [GitHub](https://github.com)
+- [Visual Studio Code](https://code.visualstudio.com)
+
+<!-- > **Link do projeto:** [🔗Clique aqui para acessar](https://saulojustiniano1.github.io/esports-community) -->
