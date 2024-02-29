@@ -1,9 +1,9 @@
 <h1 align="center">
-  ADS Exercicios
+  ADS Exercícios
 </h1>
 
 <div align="center">
-  <!-- <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/ssaulojustiniano1/ads-exercicios.svg" /> -->
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/saulojustiniano1/ads-exercicios.svg" />
   
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/saulojustiniano1/ads-exercicios.svg" />
   
