@@ -63,9 +63,27 @@ body {
   margin-bottom: 1rem;
 }
 
-ul li {
+.list-main {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+
+  background-color: rgb(172, 213, 248);
+  border-radius: 2rem;
+  padding: 2.5rem;
+}
+
+.list-main .interest h3,
+.list-main .social h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.list-main .interest ul li,
+.list-main .social ul li {
+  list-style: circle;
+  margin-bottom: 1rem;
   font-size: 1.4rem;
-  margin-block: 1rem;
 }
 
 ul li > a {
@@ -74,7 +92,7 @@ ul li > a {
 }
 
 ul li > a:hover {
-  color: blue;
+  color: white;
 }
 
 .svg {
@@ -82,7 +100,7 @@ ul li > a:hover {
 }
 
 .svg > h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -96,8 +114,8 @@ ul li > a:hover {
 }
 
 .form-main > h3 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
 }
 
 .form-main > form {
