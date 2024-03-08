@@ -28,6 +28,11 @@ body {
 }
 
 .user {
+  display: flex;
+  background-color: rgb(172, 213, 248);
+  border-radius: 3rem;
+  padding: 2rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
   margin-top: 4rem;
 }
 
@@ -41,7 +46,25 @@ body {
 }
 
 .user > img {
+  width: 25rem;
+  height: 25rem;
   border-radius: 5rem;
+}
+
+.name-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: 2rem;
+}
+
+.name-user > h2 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.name-user > p {
+  font-size: 1.5rem;
 }
 
 .main {
@@ -69,6 +92,7 @@ body {
   margin-bottom: 4rem;
 
   background-color: rgb(172, 213, 248);
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
   border-radius: 2rem;
   padding: 2.5rem;
 }
@@ -110,11 +134,16 @@ ul li > a:hover {
 }
 
 .form-main {
+  background-color: rgb(108, 178, 240);
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: 2rem;
   margin-bottom: 4rem;
 }
 
 .form-main > h3 {
   font-size: 2.2rem;
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -151,6 +180,25 @@ ul li > a:hover {
   margin-bottom: 1.5rem;
   border-radius: 0.5rem;
   border: none;
+}
+
+.form-main > .form-button {
+  color: #000;
+  font-size: 5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1rem 4rem;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  border: none;
+  background-color: rgb(172, 213, 248);
+  cursor: pointer;
+}
+
+.form-main > .form-button:hover {
+  background-color: #fff;
+  transition: 0.3s;
 }
 
 footer {
