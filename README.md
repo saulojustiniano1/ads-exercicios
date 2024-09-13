@@ -32,10 +32,14 @@
 - [Java](https://docs.oracle.com/javase/8/docs/api/)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/css)
+- [GDScript](https://docs.godotengine.org/pt_BR/stable/getting_started/scripting/gdscript/gdscript_basics.html)
+- [Kotlin](https://kotlinlang.org/)
 
 #### 🚀 Tecnologias
 
 - [Intellij IDEA](https://www.jetbrains.com/idea/)
 - [Visual Studio Code](https://code.visualstudio.com)
+- [Godot Engine](https://godotengine.org/)
+- [Android Studio](https://developer.android.com/studio)
 
 <!-- > **Link do projeto:** [🔗Clique aqui para acessar](https://saulojustiniano1.github.io/esports-community) -->
